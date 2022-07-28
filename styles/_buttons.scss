@@ -1,0 +1,212 @@
+.button__white {
+
+    background: $color-white;
+    color: $color-black;
+    border-radius: 100px;
+    border: .01rem; 
+    border-color: $color-white;
+    box-shadow: 0px 2px 6px $color-shadow;
+    width: max-content;
+    padding: .7rem 1rem .7rem 1rem;
+    font-size: 14px;
+    font-family: Ubuntu-Bold;
+    transition: .5s all;
+
+    align-items: center;
+
+    &:hover {
+        background: $color-grey-button;
+        border: .01rem;
+        border-color: $color-grey-button;
+        transition: .5s all;
+        color: $color-white;
+        cursor: pointer;
+    }
+
+}
+
+.button__green {
+
+    display: flex;
+    gap: .5rem;
+
+    background: linear-gradient(270deg, $color-green-gradient1 0%, $color-green-gradient2 100%);
+    color: $color-white;
+    border-radius: 100px;
+    border: .01rem;
+    border-color: linear-gradient(270deg, $color-green-gradient1 0%, $color-green-gradient2 100%);
+    box-shadow: 0px 2px 6px $color-shadow;
+    width: max-content;
+    padding: .9rem 1.5rem .9rem 1.5rem;
+    font-size: 14px;
+    font-family: Ubuntu-Bold;
+    // transition-duration: .5s;
+    
+
+    align-items: center;
+
+    &:hover {
+        background: $color-green-gradient2;
+        border: .01rem;
+        border-color: $color-green-gradient2;
+        transition-timing-function: 1s ease-in-out;
+        cursor: pointer;
+    }
+}
+
+.button__green3 {
+
+    display: inline-flex;
+    gap: .8rem;
+
+    background: linear-gradient(270deg, $color-green-gradient1 0%, $color-green-gradient2 100%);
+    color: $color-white;
+    border-radius: 100px;
+    border: .01rem;
+    border-color: linear-gradient(270deg, $color-green-gradient1 0%, $color-green-gradient2 100%);
+    box-shadow: 0px 2px 6px $color-shadow;
+
+    width: 13rem;
+    transition: width .3s;
+
+    padding: .9rem 1.5rem .9rem 1.5rem;
+    font-size: 14px;
+    font-family: Ubuntu-Bold;
+    
+
+    align-items: center;
+    justify-content: center;
+
+    .button_newtext {
+        display: none;
+    }
+
+    &:hover {
+        background: $color-green-gradient2;
+        border: .01rem;
+        border-color: $color-green-gradient2;
+        transition-timing-function: 2s ease-in-out;
+        cursor: pointer;
+        width: 16rem;
+        transition: width .6s;
+
+        .button_newtext {
+            display: inline-flex;
+            color:$color-white;
+            transition: width .5s;
+        }
+    }
+}
+
+.button__img {
+    width: 13px;
+    height: 13px;
+}
+
+
+.katalog__search {
+
+    position: relative;
+
+    .button__loupe {
+    
+        border: none;
+        background-color: $color-grey-bg;
+        position: absolute;
+
+        top: .8rem;
+        left: 12.7rem;
+
+        .loupe {
+            content: url('/frontend/img/icons/search\ \(10\).svg');
+            width: 16px;
+            height: 16px;
+            background-color: $color-grey-bg;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+}
+
+.button__green2 {
+
+    display: flex;
+    gap: .5rem;
+
+    background: linear-gradient(270deg, $color-green-gradient1 0%, $color-green-gradient2 99.06%);
+    color: $color-white;
+
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    border: .01rem;
+    border-color: linear-gradient(270deg, $color-green-gradient1 0%, $color-green-gradient2 99.06%);
+    box-shadow: 0px 2px 6px $color-shadow;
+    width: max-content;
+    padding: .6rem 1.5rem .6rem 1.5rem;
+    font-size: 14px;
+    font-family: Ubuntu-Bold;
+    transition: .5s all;
+
+    align-items: center;
+
+    &:hover {
+        background: linear-gradient(270deg, $color-grey-border 0%, $color-grey-button 99.06%);
+        border: .01rem;
+        border-color: $color-white-grey;
+        color: $color-white;
+        transition: .5s all;
+        cursor: pointer;
+    }
+}
+
+.button__grey {
+
+    display: flex;
+    gap: .5rem;
+
+    background: linear-gradient(270deg, $color-grey-border 0%, $color-grey-button 99.06%);
+    color: $color-white;
+    border-radius: 100px;
+    border: .01rem;
+    border-color: linear-gradient(270deg, $color-grey-border 0%, $color-grey-button 99.06%);
+    box-shadow: 0px 2px 6px $color-shadow;
+    width: max-content;
+    padding: .9rem 1.5rem .9rem 1.5rem;
+    font-size: 14px;
+    font-family: Ubuntu-Bold;
+    // transition-duration: .5s;
+    
+
+    align-items: center;
+
+    &:hover {
+        background: $color-grey-button;
+        border: .01rem;
+        border-color: $color-grey-button;
+        transition-timing-function: 1s ease-in-out;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 930px) {
+
+    .button__green,
+    .button__white {
+        // flex-direction: column;
+        align-items: center;
+        max-width: 80%;
+        background-repeat: no-repeat;
+        font-size: 10px;
+        padding: 0.7rem;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
+

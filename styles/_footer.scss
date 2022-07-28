@@ -1,0 +1,226 @@
+.footer {
+    &__mailing {
+        
+        background-color: $color-grey-button;
+        padding: 1rem;
+
+        .mailing-call {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 1rem;
+            padding-right: 1rem;
+
+            .mailing__icon {
+                display: flex;
+                gap: 1rem;
+
+                .mailing-picture {
+                    border-radius: 50%;
+                    display: flex;
+                    border: .1rem solid $color-green-gradient1;
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+                    align-content: center;
+                    overflow: hidden;
+                    width: 40px;
+                    height: 40px;
+
+                    .mailing-picture-img {
+                        width: 20px;
+                        animation: mover 1s infinite alternate;
+                    }
+                }
+
+                .mailing-text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .mailing-text-first,
+                    .mailing-text-second {
+                        font-size: 14px;
+                        font-family: Ubuntu-Bold;
+                    }
+
+                    .mailing-text-first {
+                        color: $color-green-gradient1;
+                    }
+
+                    .mailing-text-second {
+                        color: $color-white;
+                    }
+                }
+            }
+
+            .mailing__input {
+                display: inline-flex;
+
+                .mailing-input-input {
+                    border: .1rem solid $color-grey-button; 
+                    border-top-left-radius: 100px;             
+                    border-bottom-left-radius: 100px;  
+                    min-width: 15rem;        
+                    padding-left: 2rem;             
+                }
+            }
+            
+            .mailing__us {
+
+                display: flex;
+                gap: 1rem;
+                justify-content: center;
+                align-items: center;
+
+                .mailing-calling {
+                    
+                    color: $color-green-gradient1;
+                    font-size: 14px;
+                    font-family: Ubuntu-Bold;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+
+    &__navigation {
+
+        display: flex;
+        justify-content: space-between;
+        gap: .5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        .navigation__column {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+            
+        }
+
+        .logo2 {
+            display: flex;
+            gap: .3rem;
+            
+            text-decoration: none;
+            font-family: Montserrat-ExtraBold;
+            font-size: 18px;
+            opacity: 1;
+            padding-top: 1rem;
+
+            .logos2 {
+                color: $color-black;
+            }
+            
+            .gradient2 {
+                background: linear-gradient(270deg, $color-green-gradient1 0%, $color-green-gradient2 99.06%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .column-texttitle {
+            font-size: 14px;
+            font-family: Ubuntu-Bold;
+            padding: 1rem 0 0 0;
+            display: flex-wrap;
+            flex-wrap: wrap;
+        }
+
+        .column-maintext {
+            font-size: 14px;
+            color: $color-grey-button;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .social {
+            border: none;
+            background-color: $color-white;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 1100px) {
+
+}
+
+@media (max-width: 880px) {
+
+    .mailing-call {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+
+    }
+
+    .mailing-mobile:before {
+        content: "Если у вас есть вопросы - cвяжитесь с нами";
+        color: $color-white;
+        font-family: Ubuntu-Bold;
+        font-size: 14px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .mailing-call {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+
+        .mailing__us {
+            display: inline-flex;
+        }
+    }
+
+
+    
+}
+
+@media (max-width: 500px) {
+    
+    .mailing-call {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+
+        .mailing__us {
+            display: inline-flex;
+        }
+    }
+
+    .mailing-input-input {
+        width: 10rem;
+    }
+    
+
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}

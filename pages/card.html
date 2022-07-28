@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotoprokat24</title>
+
+    <meta name="description" content="Web Page">
+    <meta name="keywords" content="html, webdev">
+    <meta name="author" content="Marina Moroz">
+
+    <link rel="stylesheet" href="/frontend/styles/styles.css">
+    <link rel="stylesheet" href="/frontend/styles/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__menu container">
+            <div class="menu__logo"><a href="/frontend/pages/index.html"></a>
+                <a href="/frontend/pages/index.html" class="logo">
+                    <p class="logos1">fotoprokat</p>
+                    <p class="gradient1">24</p>
+                </a>
+                <a href="/frontend/pages/index.html" class="logo-media">
+                    <p class="logos">FP</p>
+                    <p class="gradient">24</p>
+                </a>
+            </div>
+
+            <nav class="menu__navigation">
+                <ul class="navigation__lists">
+                    <div class="dropdown" katalog-dropdown>
+                        <button class="link">
+                            <li class="navigation__list"><a class="navigation__link" katalog-dropdown-button>КАТАЛОГ</a>
+                            </li>
+                        </button>
+                        <div class="dropdown-menu katalog-grid">
+
+                            <div class="dropdown-links">
+                                <a href="/frontend/pages/search.html" class="link-link">Фотокамеры</a>
+                                <a href="#" class="link-link">Видеокамеры</a>
+                                <a href="#" class="link-link">Фото и видео объективы</a>
+                                <a href="#" class="link-link">Аудио и звук</a>
+                                <a href="#" class="link-link">Аксессуары для съемки</a>
+                                <a href="#" class="link-link">Свет</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <li class="navigation__list"><a class="navigation__link" href="">О КОМПАНИИ</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">ПРАВИЛА</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">НОВОСТИ</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">КОНТАКТЫ</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+
+            <div class="menu__icons">
+                <div class="icons-changed">
+                    <div class="changed">
+                        <div class="menu__icon1"></div>
+                    </div>
+                    <div class="changed">
+                        <div class="menu__icon2"></div>
+                        <div class="menu__icon-circle1">5</div>
+                    </div>
+                    <div class="changed">
+                        <div class="menu__icon3"></div>
+                        <div class="menu__icon-circle2">2</div>
+                    </div>
+                </div>
+                <div class="icons-constant">
+                    <div class="const">
+                        <div class="const-hover">
+                            <button class="search">
+                                <div class="menu-icon4"></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="const">
+                        <div class="const-hover">
+                            <div class="dropdown" data-dropdown>
+                                <button class="link" data-dropdown-button>
+                                    <div class="menu-icon5"></div>
+                                </button>
+                                <div class="dropdown-menu choice-information">
+                                    <div>
+                                        <div class="account__links">
+                                            <div class="empty"></div>
+                                            <a href="#" class="link-1">Профиль</a>
+                                            <a href="#" class="link-1">Мои заказы</a>
+                                            <a href="#" class="link-1">Мои бонусы</a>
+                                            <a href="#" class="link-2">Выйти</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-line">
+            <form action="#" method="post" class="search-form container">
+                <input type="text" class="search__input" type="search" placeholder="Начните поиск">
+                <button class="button__white">НАЙТИ</button>
+            </form>
+        </div>
+    </header>
+
+    <section class="section container">
+        <div class="section__navigation">
+            <ul class="navigation-chips">
+                <li><a href="/frontend/pages/index.html" class="nav-chip">Главная</a></li>
+                <p>/</p>
+                <li><a href="/frontend/pages/search.html" class="nav-chip">Каталог</a></li>
+                <p>/</p>
+                <li><a href="/frontend/pages/search.html" class="nav-chip">Фотокамеры</a></li>
+                <p>/</p>
+                <li class="nav-chip-res">Canon EOS 6D Mark II Kit 24-105mm IS II USM</li>
+            </ul>
+            <div class="navigation-main">
+                <h1 class="maintitle">
+                    <span class="gradient">Canon</span> <br>
+                    EOS 6D Mark II Kit 24-105mm IS II USM
+                </h1>
+                <div class="mainsocial-icons">
+                    <a href="" class="option a1 waves-effect waves-light"><img class="mainsocial-icon" src="/frontend/img/icons/001-facebook.svg" alt="image_relative"></a>
+                    <a href="" class="option a2 waves-effect waves-light"><img class="mainsocial-icon" src="/frontend/img/icons/002-twitter.svg" alt="image_relative"></a>
+                    <a href="" class="option a3 waves-effect waves-light"><img class="mainsocial-icon" src="/frontend/img/icons/003-vk.svg" alt="image_relative"></a>
+                    <a href="" class="option a4 waves-effect waves-light"><img class="mainsocial-icon" src="/frontend/img/icons/004-whatsapp.svg"   alt="image_relative"></a>
+                    <a href="" class="option a5 waves-effect waves-light"><img class="mainsocial-icon" src="/frontend/img/icons/005-viber.svg" alt="image_relative"></a>
+                    <a href="" class="option a  waves-effect waves-light"><img class="mainsocial-icon" src="/frontend/img/icons/new share.jpg" alt="image_relative"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section__cardproduct">
+            <div class="cardproduct__main">
+                <div class="cardproduct__picture">
+                    <div class="cardproduct__mainpicture">
+                        <img class="cardproduct__img" src="/frontend/img/12a48bdbc3cd7238e6d0dac8c71b9910.jpeg" alt="image_relative">
+                    </div>
+                    <div class="cardproduct__minipicture">
+                        <img class="cardproduct__miniimg" src="/frontend/img/01.jpeg" alt="image_relative">
+                        <img class="cardproduct__miniimg" src="/frontend/img/03.jpeg" alt="image_relative">
+                        <img class="cardproduct__miniimg" src="/frontend/img/0225.jpeg" alt="image_relative">
+                        <img class="cardproduct__miniimg" src="/frontend/img/02.jpeg" alt="image_relative">
+                    </div>
+                </div>            
+            </div>
+            <div class="cardproduct__description">
+                <div class="cardproduct__now">
+                    <div class="cardproduct__btn">В наличии</div>
+                    <div class="cardproduct__reviews">
+                        <div class="cardproduct__reviews-txt">
+                            <div class="cardproduct__reviews-title">
+                                Рейтинг
+                            </div>
+                            <div class="cardproduct__reviews-circle">
+                                4,8
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardproduct__icons">
+                        <div class="cardproduct__icons-title">Избранное</div> 
+                        <div class="cardproduct__icon1"></div>
+                        <div class="cardproduct__icons-title">Сравнить</div>
+                        <div class="cardproduct__icon2"></div>
+                    </div>
+                </div>
+                <div class="cardproduct__cash">
+                    <div class="cardproduct__cash-title">
+                        Выберите даты аренды
+                    </div>
+                    <div class="cardproduct__cash-date">
+                        <div class="choice-selectors">
+                            <select class="choice-filter" required="required">
+                                <option value="1" class="choice-text" selected>День</option>
+                                <option value="2" class="choice-text">01</option>
+                                <option value="3" class="choice-text">02</option>
+                                <option value="4" class="choice-text">03</option>
+                                <option value="6" class="choice-text">05</option>
+                                <option value="7" class="choice-text">06</option>
+                                <option value="8" class="choice-text">07</option>
+                                <option value="9" class="choice-text">08</option>
+                                <option value="10" class="choice-text">09</option>
+                                <option value="11" class="choice-text">10</option>
+                                <option value="12" class="choice-text">11</option>
+                                <option value="13" class="choice-text">12</option>
+                                <option value="14" class="choice-text">13</option>
+                                <option value="15" class="choice-text">14</option>
+                                <option value="16" class="choice-text">15</option>
+                                <option value="17" class="choice-text">16</option>
+                                <option value="18" class="choice-text">17</option>
+                                <option value="19" class="choice-text">18</option>
+                                <option value="20" class="choice-text">19</option>
+                                <option value="21" class="choice-text">20</option>
+                                <option value="22" class="choice-text">21</option>
+                                <option value="23" class="choice-text">22</option>
+                                <option value="24" class="choice-text">23</option>
+                                <option value="25" class="choice-text">24</option>
+                                <option value="26" class="choice-text">25</option>
+                                <option value="27" class="choice-text">26</option>
+                                <option value="28" class="choice-text">27</option>
+                                <option value="29" class="choice-text">28</option>
+                                <option value="30" class="choice-text">29</option>
+                                <option value="31" class="choice-text">30</option>
+                                <option value="32" class="choice-text">31</option>
+                            </select>
+                            <select class="choice-filter" required="required">
+                                <option value="1" class="choice-text" selected>Месяц</option>
+                                <option value="2" class="choice-text">01</option>
+                                <option value="3" class="choice-text">02</option>
+                                <option value="4" class="choice-text">03</option>
+                                <option value="6" class="choice-text">05</option>
+                                <option value="7" class="choice-text">06</option>
+                                <option value="8" class="choice-text">07</option>
+                                <option value="9" class="choice-text">08</option>
+                                <option value="10" class="choice-text">09</option>
+                                <option value="11" class="choice-text">10</option>
+                                <option value="12" class="choice-text">11</option>
+                                <option value="13" class="choice-text">12</option>
+                            </select>
+                        </div>
+                        <div class="choice-text">по</div>
+                        <div class="choice-selectors">
+                            <select class="choice-filter" required="required">
+                                <option value="1" class="choice-text" selected>День</option>
+                                <option value="2" class="choice-text">01</option>
+                                <option value="3" class="choice-text">02</option>
+                                <option value="4" class="choice-text">03</option>
+                                <option value="6" class="choice-text">05</option>
+                                <option value="7" class="choice-text">06</option>
+                                <option value="8" class="choice-text">07</option>
+                                <option value="9" class="choice-text">08</option>
+                                <option value="10" class="choice-text">09</option>
+                                <option value="11" class="choice-text">10</option>
+                                <option value="12" class="choice-text">11</option>
+                                <option value="13" class="choice-text">12</option>
+                                <option value="14" class="choice-text">13</option>
+                                <option value="15" class="choice-text">14</option>
+                                <option value="16" class="choice-text">15</option>
+                                <option value="17" class="choice-text">16</option>
+                                <option value="18" class="choice-text">17</option>
+                                <option value="19" class="choice-text">18</option>
+                                <option value="20" class="choice-text">19</option>
+                                <option value="21" class="choice-text">20</option>
+                                <option value="22" class="choice-text">21</option>
+                                <option value="23" class="choice-text">22</option>
+                                <option value="24" class="choice-text">23</option>
+                                <option value="25" class="choice-text">24</option>
+                                <option value="26" class="choice-text">25</option>
+                                <option value="27" class="choice-text">26</option>
+                                <option value="28" class="choice-text">27</option>
+                                <option value="29" class="choice-text">28</option>
+                                <option value="30" class="choice-text">29</option>
+                                <option value="31" class="choice-text">30</option>
+                                <option value="32" class="choice-text">31</option>
+                            </select>
+                            <select class="choice-filter" required="required">
+                                <option value="1" class="choice-text" selected>Месяц</option>
+                                <option value="2" class="choice-text">01</option>
+                                <option value="3" class="choice-text">02</option>
+                                <option value="4" class="choice-text">03</option>
+                                <option value="6" class="choice-text">05</option>
+                                <option value="7" class="choice-text">06</option>
+                                <option value="8" class="choice-text">07</option>
+                                <option value="9" class="choice-text">08</option>
+                                <option value="10" class="choice-text">09</option>
+                                <option value="11" class="choice-text">10</option>
+                                <option value="12" class="choice-text">11</option>
+                                <option value="13" class="choice-text">12</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="cardproduct__buttons">
+                        <button class="button__green3">
+                            <img class="button__img" src="/frontend/img/icons/shopping cart card.svg" alt="image_relative">
+                            В корзину
+                            <div class="button_newtext">сейчас!</div>
+                        </button>
+                    </div>
+                    <div class="cardproduct__cash-title">
+                        Cтоимость аренды
+                    </div>
+                    <div class="card__price">
+                        <div class="price-block">
+                            <p class="line1">1500 &#x20bd</p>
+                            <p class="line2">Будний</p>
+                        </div>
+                        <div class="price-block">
+                            <p class="line1">1800 &#x20bd</p>
+                            <p class="line2">Выходной</p>
+                        </div>
+                        <div class="price-block">
+                            <p class="line1">7 000 &#x20bd</p>
+                            <p class="line2">Неделя</p>
+                        </div>
+                        <div class="price-block">
+                            <p class="line1">10 000 &#x20bd</p>
+                            <p class="line2">Месяц</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section__specifications">
+            <input type="radio" name="specifications-btn" id="specifications-btn-1" value="" checked>
+            <label for="specifications-btn-1">Описание</label>
+            <input type="radio" name="specifications-btn" id="specifications-btn-2" value="">
+            <label for="specifications-btn-2">Характеристики</label>
+            <input type="radio" name="specifications-btn" id="specifications-btn-4" value="">
+            <label for="specifications-btn-4">Режимы съемки</label>
+            <input type="radio" name="specifications-btn" id="specifications-btn-3" value="">
+            <label for="specifications-btn-3">Комплектация</label>
+        
+            <div id="specifications__content-1">
+                <div class="specifications__content-1-1">
+                    <p class="specifications__content-1-1-p">
+                        <b>О камере: </b> Зеркальная камера, байонет Canon EF, матрица Full frame (полный кадр) 26 Мп, с
+                        объективом F4
+                        24-105 мм, Wi-Fi
+                    </p> <br>
+                    <p class="specifications__content-1-1-p"><b>Дата выхода на рынок: </b> 2018</p> <br>
+                    <p class="specifications__content-1-1-p">
+                        Запись изображения в фотоаппарате осуществляется фотохимическим способом при воздействии света на
+                        cветочувствительный фотоматериал. Получаемое таким способом скрытое изображение преобразуется в видимое
+                        при
+                        лабораторной обработке. В цифровом фотоаппарате фотофиксация происходит путём фотоэлектрического
+                        преобразования
+                        оптического изображения в электрический сигнал, цифровые данные о котором сохраняются на
+                        энергонезависимом носителе.
+                    </p>
+                </div>
+            </div>
+            <div id="specifications__content-2">
+                <div class="specifications__content-2-1">
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Тип камеры</p>
+                        <p class="content-2-description-1">зеркальная камера</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Тип матрицы</p>
+                        <p class="content-2-description-1">CMOS</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Размер экрана</p>
+                        <p class="content-2-description-1">3 ''</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Количество точек матрицы</p>
+                        <p class="content-2-description-1">26 Мп</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Фокусное расстояние</p>
+                        <p class="content-2-description-1">24 — 105 мм</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Максимальное разрешение видео</p>
+                        <p class="content-2-description-1">1920x1080 (60 кадров/с)</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Режимы съемки HD-видео</p>
+                        <p class="content-2-description-1">1920 x 1080 (60 к/с),<br> 1280 x 720 (60 к/с)</p>
+                    </div>
+                </div>
+            </div>
+            <div id="specifications__content-3">
+                <ul class="specifications__ul">
+                    <li class="specifications__ul-li">Объектив Canon EF 24-105mm f/4L IS II USM</li>
+                    <li class="specifications__ul-li">Аккумулятор LP-E6N</li>
+                    <li class="specifications__ul-li">Зарядное устройство LC-E6E</li>
+                    <li class="specifications__ul-li">Ремень</li>
+                    <li class="specifications__ul-li">Сумка для переноски</li>
+                    <li class="specifications__ul-li">Защитная крышка для объектива</li>
+                </ul>
+            </div>
+            <div id="specifications__content-4">
+                <div class="specifications__content-2-1">
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Скорость съёмки</p>
+                        <p class="content-2-description-1">6.5 кадров/с</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Объём буфера</p>
+                        <p class="content-2-description-1">21 кадров (RAW)</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Запись звука</p>
+                        <p class="content-2-description-1">Есть</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Стереомикрофон</p>
+                        <p class="content-2-description-1">Есть</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Поддержка карт памяти</p>
+                        <p class="content-2-description-1">SD, SDHC, SDXC</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Bluetooth</p>
+                        <p class="content-2-description-1">4.1</p>
+                    </div>
+                    <div class="specifications-descr2">
+                        <p class="content-2-description-1">Wi-Fi</p>
+                        <p class="content-2-description-1">802.11n</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section__reviews">
+            <h1 class="section__title">Отзывы</h1>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="one-review">
+                            <img class="one-review-img" src="/frontend/img/фотограф ревью 1.jpg" alt="image_relative">
+                            <p class="one-review-name">Никита</p>
+                            <p class="one-review-text">Отличный фотоаппарат! У меня была назначена сьемка, и в нужный момент фотоаппарат сломался. Спасибо персоналу за отзывчивость, скорость и дружелюбие. В случае форс-мажора - вы самый топ!<br><br><b>Рейтинг - 4</b><br>Дата публикации: 01.07.2022</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="one-review">
+                            <img class="one-review-img" src="/frontend/img/фотограф ревью 2.jpg" alt="image_relative">
+                            <p class="one-review-name">Денис</p>
+                            <p class="one-review-text">Выбираемся с друзьями в походы не часто, качественные снимки получить хочется, а покупать фотоаппарт на такие мероприятия невыгодно! Удобный вариант, если фотоаппарат нужен пару раз в год!  Рекоммендую.<br><br><b>Рейтинг - 5</b><br>Дата публикации: 15.07.2022</p></p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="one-review">
+                            <img class="one-review-img" src="/frontend/img/фотограф ревью 3.jpg" alt="image_relative">
+                            <p class="one-review-name">Каролина</p>
+                            <p class="one-review-text">Я захотела сфотографироваться на поле маков, но не хотела обращаться к дорогостоящему фотографу. Взяла подружку, выбрала этот фотоаппарат для фотосессии и вперед! Получились отличные кадры!<br><br><b>Рейтинг - 5</b><br>Дата публикации: 25.07.2022</p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>                
+            </div>
+        </div>
+        
+        <div class="section__recommendation">
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__mailing">
+            <div class="mailing-call container">
+                <div class="mailing__icon">
+                    <div class="mailing-picture">
+                        <img class="mailing-picture-img" src="/frontend/img/icons/mailing.svg" alt="image_relative">
+                    </div>
+                    <div class="mailing-text">
+                        <p class="mailing-text-first">Подпишитесь</p>
+                        <p class="mailing-text-second">на новости и акции</p>
+                    </div>
+                </div>
+                <div class="mailing__input">
+                    <input type="email" name="email" id="email"  class="mailing-input-input"  placeholder="Введите e-mail">
+                    <button class="button__green2">Подписаться</button>
+                </div>
+                <div class="mailing__us">
+                    <p class="mailing-mobile"></p>
+                    <div class="mailing-us-now">
+                        <a class="mailing-calling" href="tel:+7999999-99-99">+7(999) 999-99-99</a>
+                    </div>
+                    <div class="mailing-us-now">
+                        <a class="mailing-calling" href="mailto:fotoprokat24@test.com">fp@24.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__navigation container">
+            <div class="navigation__column">
+                <a href="" class="logo2">
+                    <p class="logos2">fotoprokat</p>
+                    <p class="gradient2">24</p>
+                </a>
+                <p class="column-texttitle">
+                    Самый удобный в Москве <br> сервис аренды фото и видеотехники
+                </p>
+                <p class="column-maintext">
+                    © 2015 – 2019 Fotoprokat 24
+                </p>
+                <div class="buttons">
+                    <button class="social">
+                        <a href="https://www.youtube.com/watch?v=UCxgbOBVSfM" target="_blank">
+                            <img class="social-img" src="/frontend/img/icons/001-facebook.svg" alt="image_relative">
+                        </a>
+                    </button>
+                    <button class="social">
+                        <a href="https://www.youtube.com/watch?v=iZq3i94mSsQ" target="_blank">
+                            <img class="social-img" src="/frontend/img/icons/002-twitter.svg" alt="image_relative">
+                        </a>
+                    </button>
+                    <button class="social">
+                        <a href="https://www.youtube.com/watch?v=wp43OdtAAkM" target="_blank">
+                            <img class="social-img" src="/frontend/img/icons/003-vk.svg" alt="image_relative">
+                        </a>
+                    </button>
+                    <button class="social">
+                        <a href="https://www.youtube.com/watch?v=LatorN4P9aA" target="_blank">
+                            <img class="social-img" src="/frontend/img/icons/004-youtube.svg" alt="image_relative">
+                        </a>
+                    </button>
+                    <button class="social">
+                        <a href="https://www.youtube.com/watch?v=djV11Xbc914" target="_blank">
+                            <img class="social-img" src="/frontend/img/icons/005-instagram.svg" alt="image_relative">
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="navigation__column">
+                <p class="column-texttitle">
+                    Компания
+                </p>
+                <p class="column-maintext">
+                    О компании
+                </p>
+                <p class="column-maintext">
+                    Новости
+                </p>
+                <p class="column-maintext">
+                    Документы
+                </p>
+                <p class="column-maintext">
+                    Вакансии
+                </p>
+            </div>
+            <div class="navigation__column">
+                <p class="column-texttitle">
+                    Клиентам
+                </p>
+                <p class="column-maintext">
+                    Точки выдачи
+                </p>
+                <p class="column-maintext">
+                    Скидки
+                </p>
+                <p class="column-maintext">
+                    Вопрос-ответ
+                </p>
+                <p class="column-maintext">
+                    Доставка
+                </p>
+            </div>
+            <div class="navigation__column">
+                <p class="column-texttitle">
+                    Контакты
+                </p>
+                <p class="column-maintext">
+                    Москва, <br> пр. Мира, 12
+                </p>
+                <p class="column-maintext">
+                    ПН-ВС: 9:00 - 21:00
+                </p>
+                <p class="column-maintext">
+                    +7 (999) 999-99-99
+                </p>
+                <p class="column-maintext">
+                    ft@24.com
+                </p>
+            </div>
+    
+        </div>
+    </footer>
+
+    <script src="/frontend/js/hamburger-menu.js"></script>
+    <script src="/frontend/js/dropdown.js"></script>
+    <script src="/frontend/js/search.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="../../frontend/js/swiper-card.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotoprokat24</title>
+
+    <meta name="description" content="Web Page">
+    <meta name="keywords" content="html, webdev">
+    <meta name="author" content="Marina Moroz">
+
+    <link rel="stylesheet" href="/frontend/styles/styles.css">
+    <link rel="stylesheet" href="/frontend/styles/fonts.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__menu container">
+            <div class="menu__logo">
+                <a href="" class="logo"><p class="logos1">fotoprokat</p><p class="gradient1">24</p></a>
+                <a href="" class="logo-media"><p class="logos">FP</p><p class="gradient">24</p></a>
+            </div>
+            
+            <nav class="menu__navigation">
+                <ul class="navigation__lists">
+                    <div class="dropdown" katalog-dropdown>
+                        <button class="link">
+                            <li class="navigation__list"><a class="navigation__link" katalog-dropdown-button>КАТАЛОГ</a></li>
+                        </button>
+                        <div class="dropdown-menu katalog-grid">
+                            
+                            <div class="dropdown-links">
+                                <a href="/frontend/pages/search.html" class="link-link">Фотокамеры</a>
+                                <a href="#" class="link-link">Видеокамеры</a>
+                                <a href="#" class="link-link">Фото и видео объективы</a>
+                                <a href="#" class="link-link">Аудио и звук</a>
+                                <a href="#" class="link-link">Аксессуары для съемки</a>
+                                <a href="#" class="link-link">Свет</a>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="navigation__list"><a class="navigation__link" href="">О КОМПАНИИ</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">ПРАВИЛА</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">НОВОСТИ</a></li>
+                    <li class="navigation__list"><a class="navigation__link" href="">КОНТАКТЫ</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+            
+            <div class="menu__icons">
+                <div class="icons-changed">
+                    <div class="changed">
+                        <div class="menu__icon1"></div>
+                    </div>
+                    <div class="changed">
+                        <div class="menu__icon2"></div>
+                        <div class="menu__icon-circle1">5</div>
+                    </div>
+                    <div class="changed">
+                        <div class="menu__icon3"></div>
+                        <div class="menu__icon-circle2">2</div>
+                    </div>
+                </div>
+                <div class="icons-constant">
+                    <div class="const">
+                        <div class="const-hover">
+                            <button class="search">
+                                <div class="menu-icon4"></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="const">
+                        <div class="const-hover">
+                            <div class="dropdown" data-dropdown>
+                                <button class="link" data-dropdown-button>
+                                    <div class="menu-icon5"></div>
+                                </button>
+                                <div class="dropdown-menu choice-information">
+                                    <div>
+                                        <div class="account__links">
+                                            <div class="empty"></div>
+                                            <a href="#" class="link-1">Профиль</a>
+                                            <a href="#" class="link-1">Мои заказы</a>
+                                            <a href="#" class="link-1">Мои бонусы</a>
+                                            <a href="#" class="link-2">Выйти</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-line">
+            <form action="#" method="post" class="search-form container">
+                <input type="text" class="search__input" type="search" placeholder="Начните поиск">
+                <button class="button__white"><a class="search_button-white" href="/frontend/pages/search.html">НАЙТИ</a></button>
+            </form>
+        </div>
+        <div class="header__banner">
+            
+            <div class="bannertext container">
+                <p class="banner-text"><span class="gradient">АРЕНДА</span> ФОТО</p>
+                <p class="banner-text">И ВИДЕО</p>
+                <p class="banner-text">ОБОРУДОВАНИЯ</p>
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="header__benefits">
+            <div class="all-benefits container">
+                <div class="benefit">
+                    <img src="/frontend/img/icons/001-list.svg" class="benefits__icon" alt="icon">
+                    <p class="benefit-text">Самый большой выбор техники</p>
+                </div>
+                <div class="benefit">
+                    <img src="/frontend/img/icons/002-time.svg" class="benefits__icon" alt="icon">
+                    <p class="benefit-text">Быстрое оформление заказа</p>
+                </div>
+                <div class="benefit">
+                    <img src="/frontend/img/icons/003-placeholder.svg" class="benefits__icon" alt="icon">
+                    <p class="benefit-text">Можно забрать заказ в пункте выдачи</p>
+                </div>
+                <div class="benefit">
+                    <img src="/frontend/img/icons/004-product.svg" class="benefits__icon" alt="icon">
+                    <p class="benefit-text">Доставка в любую точку Москвы</p>
+                </div>
+                <div class="benefit">
+                    <img src="/frontend/img/icons/005-commerce-and-shopping.svg" class="benefits__icon" alt="icon">
+                    <p class="benefit-text">Оплата картой и наличными</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="section__popular container">
+            <h1 class="maintitle">Популярные товары</h1>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card__image">
+                                <img class="card__img" src="/frontend/img/photo.svg" alt="image_relative">
+                                <div class="card__icon">
+                                    <div class="cardproduct__icon1"></div>
+                                    <div class="cardproduct__icon2"></div>
+                                </div>
+                            </div>
+                            <div class="card__text">
+                                <p class="card-text1">
+                                    PowerShot SX620 HS</p>
+                                <p class="card-text2">
+                                    Canon</p>
+                            </div>
+                            <div class="card__price">
+                                <div class="price-block">
+                                    <p class="line1">630 &#x20bd</p>
+                                    <p class="line2">Будний</p>
+                                </div>
+                                <div class="price-block">
+                                    <p class="line1">750 &#x20bd</p>
+                                    <p class="line2">Выходной</p>
+                                </div>
+                                <div class="price-block">
+                                    <p class="line1">4 380 &#x20bd</p>
+                                    <p class="line2">Неделя</p>
+                                </div>
+                                <div class="price-block">
+                                    <p class="line1">12 250 &#x20bd</p>
+                                    <p class="line2">Месяц</p>
+                                </div>
+                            </div>
+                            <div class="card__more">
+                                <button class="button__white">Подробнее</button>
+                                <button class="button__green">
+                                    <img class="button__img" src="/frontend/img/icons/shopping cart card.svg" alt="image_relative">
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card__image">
+                                <img class="card__img" src="/frontend/img/orig (2).svg" alt="image_relative">
+                                <div class="card__icon">
+                                    <div class="cardproduct__icon1"></div>
+                                    <div class="cardproduct__icon2"></div>
+                                </div>
+                            </div>
+                            <div class="card__text">
+                                <p class="card-text1">
+                                    Alpha A6300 Kit 16-50мм PZ</p>
+                                <p class="card-text2">
+                                    Sony</p>
+                            </div>
+                            <div class="card__price">
+                                <div class="price-block">
+                                    <p class="line1">630 &#x20bd</p>
+                                    <p class="line2">Будний</p>
+                                </div>
+                                <div class="price-block">
+                                    <p class="line1">750 &#x20bd</p>
+                                    <p class="line2">Выходной</p>
+                                </div>
+                                <div class="price-block">
+                                    <p class="line1">4 380 &#x20bd</p>
+                                    <p class="line2">Неделя</p>
+                                </div>
+                                <div class="price-block">
+                                    <p class="line1">12 250 &#x20bd</p>
+                                    <p class="line2">Месяц</p>
+                                </div>
+                            </div>
+                            <div class="card__more">
+                                <button class="button__white">Подробнее</button>
+                                <button class="button__green">
+                                    <img class="button__img" src="/frontend/img/icons/shopping cart card.svg" alt="image_relative">
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card__image">
+                                <img class="card__img" src="/frontend/img/orig.svg" alt="image_relative">
+                                <div class="card__icon">
+                                    <div class="cardproduct__icon1"></div>
+                                    <div class="cardproduct__icon2"></div>
+                                </div>
+                            </div>
+                            <div class="card__text">
+                                <p class="card-text1">
+                                    Appareil photo Compact IXUS 185</p> 
+                                <p class="card-text2">
+                                    Canon</p>
+                            </div>
+                            <div class="card__price">
+                                <div class="price-block">
+                                    <p class="line1">630 &#x20bd</p>
+                                    <p class="line2">Будний</p>
+                                </div>
+                                <div class="price-block">
+                                    <p class="line1">750 &#x20bd</p>
+                                    <p class="line2">Выходной</p>
+                                </div>
+                                <div class="price-block">
+                                    <p class="line1">4 380 &#x20bd</p>
+                                    <p class="line2">Неделя</p>
+                                </div>
+                                <div class="price-block">
+                                    <p class="line1">12 250 &#x20bd</p>
+                                    <p class="line2">Месяц</p>
+                                </div>
+                            </div>
+                            <div class="card__more">
+                                <button class="button__white">Подробнее</button>
+                                <button class="button__green">
+                                    <img class="button__img" src="/frontend/img/icons/shopping cart card.svg" alt="image_relative">
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <div class="section__katalog container">
+        
+            <h1 class="maintitle">Вы ищете что-то конкретное?</h1>
+            <div class="texting">
+                <p class="descriptions">Проект <span class="b_descriptions">Fotoprokat24</span> является агрегатором предложений всех фотопрокатов Москвы и служит для Вашего удобства. Выберете
+                необходимую категорию, либо начните поиск по названию. Оформив заказ, Вы сможете забрать его из Пункта Выдачи, либо
+                заказать доставку в любую точку Москвы.</p>
+                <div class="katalog_buttons">
+                    <button class="button__green"><a class="katalog-text" href="/frontend/pages/search.html">ПЕРЕЙТИ В КАТАЛОГ</a></button>
+
+                    <div class="katalog__search">
+                        <input type="text" class="katalog__input" type="search" placeholder="Поиск">
+                        <button class="button__loupe"><div class="loupe"></div></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__blogs container">
+            <div class="blogs-line">
+                <div class="blog1">
+                    <div class="blogs-text">
+                        <p class="blog-text">Фотокамеры Canon <br> от 3000 рублей</p>
+                    </div>
+                </div>
+                <div class="blog2">
+                    <div class="blogs-text">
+                        <p class="blog-text">Видеокамеры <br>
+                        по 200 рублей в сутки</p>
+                    </div>
+                </div>
+                <div class="blog3">
+                    <div class="blogs-text">
+                        <p class="blog-text">Товар недели <br> всего за 4000 рублей</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blogs-line">
+                <div class="blog4">
+                    <div class="blogs-text">
+                        <p class="blog-text">Лучшие объективы <br> по 700 рублей</p>
+                    </div>
+                </div>
+                <div class="blog5">
+                    <div class="blogs-text">
+                        <p class="blog-text">Отличные фотокамеры<br>за 1500 рублей</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section__sellers">
+
+            <div class="all-badges container">
+                <h1 class="maintitle">Зарабатывайте вместе с нами</h1>
+                <div class="texting">
+                    <p class="descriptions">Сдавайте свою технику через наш сервис, разместив её в каталоге, и получайте стабильную прибыль.</p>
+                </div>
+                <div class="badges">
+                    <div class="badges-line">
+                        <div class="badge">
+                            <p class="badge-text">Доступный способ инвестировать</p>
+                            <div class="badge-image">
+                                <img class="badge-img" src="/frontend/img/icons/diamond.svg" alt="image_relative">
+                            </div>
+                        </div>
+                        <div class="badge">
+                            <p class="badge-text">Постоянный стабильный доход</p>
+                            <div class="badge-image">
+                                <img class="badge-img" src="/frontend/img/icons/calendar-6.svg" alt="image_relative">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="badges-line">
+                        <div class="badge">
+                            <p class="badge-text">Гарантии сохранности техники</p>
+                            <div class="badge-image">
+                                <img class="badge-img" src="/frontend/img/icons/umbrella.svg" alt="image_relative">
+                            </div>
+                        </div>
+                        <div class="badge">
+                            <p class="badge-text">Прозрачные <br> выплаты</p>
+                            <div class="badge-image">
+                                <img class="badge-img" src="/frontend/img/icons/view.svg" alt="image_relative">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="button__green">ПРЕДЛОЖИТЬ СВОЮ ТЕХНИКУ</button>
+            </div>
+        </div>
+
+        <div class="section__news container">
+            <h1 class="maintitle">Новости компании</h1>
+            <div class="news-blogs">
+                <div class="news-blog">
+                    <div class="news-image">
+                        <img class="news-img" src="/frontend/img/news11.svg" alt="image_relative">
+                    </div>
+                    <div class="news-text">
+                        <p class="news-date">
+                            7 июля 2022
+                        </p>
+                        <p class="news-title">
+                            Выбираем SD-карты для съемки
+                        </p>
+                        <p class="news-description">
+                            За исключением отсутствующей системы аэродинамического охлаждения, корпус этого ноутбука почти такой же.
+                        </p>
+                    </div>
+                </div>
+                <div class="news-blog">
+                    <div class="news-image">
+                        <img class="news-img" src="/frontend/img/news.svg" alt="image_relative">
+                    </div>
+                    <div class="news-text">
+                        <p class="news-date">
+                            14 июля 2022
+                        </p>
+                        <p class="news-title">
+                            Что представила Photokina
+                        </p>
+                        <p class="news-description">
+                            Ноутбук Zephyrus S (GX502) весит 2 кг, а корпус толщиной всего 18,9 мм позволяет легко уместить его в обычный рюкзак.
+                        </p>
+                    </div>
+                </div>
+                <div class="news-blog">
+                    <div class="news-image">
+                        <img class="news-img" src="/frontend/img/news3.svg" alt="image_relative">
+                    </div>
+                    <div class="news-text">
+                        <p class="news-date">
+                            17 июля 2022
+                        </p>
+                        <p class="news-title">
+                            Новинка GoPro Hero 10 Black
+                        </p>
+                        <p class="news-description">
+                            Специальные «легкие» версии приложений для Android GO и отсутствие некоторых предустановленных программ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="button__green">ВСЕ НОВОСТИ</button>
+        </div>
+        <div class="section__map">
+            <div class="map-partners container">
+                <h1 class="maintitle">C кем мы работаем</h1>
+                <div class="partners">
+                    <div class="partner-line">
+                        <div class="partner">
+                            <div class="partner-title">
+                                <img class="partners-img" src="/frontend/img/icons/photograph.svg" alt="image_relative">
+                                <p class="partners-name">Фотопрокат Zoom</p>
+                            </div>
+                            <p class="partner-adress">Малая Ордынка, 25</p>
+                            <a href="" class="partner-site">http://zoom-prokat.ru</a>
+                        </div>
+                        <div class="partner">
+                            <div class="partner-title">
+                                <img class="partners-img" src="/frontend/img/icons/photograph.svg" alt="image_relative">
+                                <p class="partners-name">Rental Photo</p>
+                            </div>
+                            <p class="partner-adress">Киркорова, 180/1</p>
+                            <a href="" class="partner-site">http://rentalphoto.com</a>
+                        </div>
+                    </div>
+                    <div class="partner-line">
+                        <div class="partner">
+                            <div class="partner-title">
+                                <img class="partners-img" src="/frontend/img/icons/photograph.svg" alt="image_relative">
+                                <p class="partners-name">Panasonic Company</p>
+                            </div>
+                            <p class="partner-adress">Тверская, 155</p>
+                            <a href="" class="partner-site">http://panasonic-com.com</a>
+                        </div>
+                        <div class="partner">
+                            <div class="partner-title">
+                                <img class="partners-img" src="/frontend/img/icons/photograph.svg" alt="image_relative">
+                                <p class="partners-name">Your best Choice</p>
+                            </div>
+                            <p class="partner-adress">Победы, 14</p>
+                            <a href="" class="partner-site">http://yourbest.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__mailing">
+            <div class="mailing-call container">
+                <div class="mailing__icon">
+                    <div class="mailing-picture">
+                        <img class="mailing-picture-img" src="/frontend/img/icons/mailing.svg" alt="image_relative">
+                    </div>
+                    <div class="mailing-text">
+                        <p class="mailing-text-first">Подпишитесь</p>
+                        <p class="mailing-text-second">на новости и акции</p>
+                    </div>
+                </div>
+                <div class="mailing__input">
+                    <input type="email" name="email" id="email"  class="mailing-input-input" placeholder="Введите e-mail">
+                    <button class="button__green2">Подписаться</button>
+                </div>
+                <div class="mailing__us">
+                    <p class="mailing-mobile"></p>
+                    <div class="mailing-us-now">
+                        <a class="mailing-calling" href="tel:+7999999-99-99">+7(999) 999-99-99</a>
+                    </div>
+                    <div class="mailing-us-now">
+                        <a class="mailing-calling" href="mailto:fotoprokat24@test.com">fp@24.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__navigation container">
+            <div class="navigation__column">
+                <a href="" class="logo2">
+                    <p class="logos2">fotoprokat</p>
+                    <p class="gradient2">24</p>
+                </a>
+                <p class="column-texttitle">
+                    Самый удобный в Москве <br> сервис аренды фото и видеотехники
+                </p>
+                <p class="column-maintext">
+                    © 2015 – 2019 Fotoprokat 24
+                </p>
+                <div class="buttons">
+                    <button class="social">
+                        <a href="https://www.youtube.com/watch?v=UCxgbOBVSfM" target="_blank">
+                            <img class="social-img" src="/frontend/img/icons/001-facebook.svg" alt="image_relative">
+                        </a>
+                    </button>
+                    <button class="social">
+                        <a href="https://www.youtube.com/watch?v=iZq3i94mSsQ" target="_blank">
+                            <img class="social-img" src="/frontend/img/icons/002-twitter.svg" alt="image_relative">
+                        </a>
+                    </button>
+                    <button class="social">
+                        <a href="https://www.youtube.com/watch?v=wp43OdtAAkM" target="_blank">
+                            <img class="social-img" src="/frontend/img/icons/003-vk.svg" alt="image_relative">
+                        </a>
+                    </button>
+                    <button class="social">
+                        <a href="https://www.youtube.com/watch?v=LatorN4P9aA" target="_blank">
+                            <img class="social-img" src="/frontend/img/icons/004-youtube.svg" alt="image_relative">
+                        </a>
+                    </button>
+                    <button class="social">
+                        <a href="https://www.youtube.com/watch?v=djV11Xbc914" target="_blank">
+                            <img class="social-img" src="/frontend/img/icons/005-instagram.svg" alt="image_relative">
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="navigation__column">
+                <p class="column-texttitle">
+                    Компания
+                </p>
+                <p class="column-maintext">
+                    О компании
+                </p>
+                <p class="column-maintext">
+                    Новости
+                </p>
+                <p class="column-maintext">
+                    Документы
+                </p>
+                <p class="column-maintext">
+                    Вакансии
+                </p>
+            </div>
+            <div class="navigation__column">
+                <p class="column-texttitle">
+                    Клиентам
+                </p>
+                <p class="column-maintext">
+                    Точки выдачи
+                </p>
+                <p class="column-maintext">
+                    Скидки
+                </p>
+                <p class="column-maintext">
+                    Вопрос-ответ
+                </p>
+                <p class="column-maintext">
+                    Доставка
+                </p>
+            </div>
+            <div class="navigation__column">
+                <p class="column-texttitle">
+                    Контакты
+                </p>
+                <p class="column-maintext">
+                    Москва, <br> пр-т Мира, 12
+                </p>
+                <p class="column-maintext">
+                    ПН-ВС: 9:00 - 21:00
+                </p>
+                <p class="column-maintext">
+                    +7(999) 999-99-99
+                </p>
+                <p class="column-maintext">
+                    ft@24.com
+                </p>
+            </div>
+
+        </div>
+    </footer>
+    
+    <script src="/frontend/js/header_click.js"></script>
+    <script src="/frontend/js/hamburger-menu.js"></script>
+    <script src="/frontend/js/dropdown.js"></script>
+    <script src="/frontend/js/search.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="../../frontend/js/swiper.js"></script>
+    <!-- <script src="../../frontend/js/greenicons.js"></script> -->
+
+    
+</body>
+</html>
