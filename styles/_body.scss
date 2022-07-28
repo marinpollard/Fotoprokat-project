@@ -95,23 +95,23 @@
         }
 
         .cardproduct__icon1 {
-            background-image: url('../../frontend/img/icons/Vector.svg');
+            background-image: url('../img/icons/Vector.svg');
             width: 15px;
             height: 15px;
 
             &:hover {
-                background-image: url('../../frontend/img/icons/Vector\ copy.svg');
+                background-image: url('../img/icons/Vector\ copy.svg');
                 cursor: pointer;
             }
         }
 
         .cardproduct__icon2 {
-            background-image: url('../../frontend/img/icons/compare.svg');
+            background-image: url('../img/icons/compare.svg');
             width: 15px;
             height: 15px;
 
             &:hover {
-                background-image: url('../../frontend/img/icons/compare\ copy.svg');
+                background-image: url('../img/icons/compare\ copy.svg');
                 cursor: pointer;
 
             }
@@ -254,31 +254,31 @@
         }
 
         .blog1 {
-            background-image: url('../../frontend/img/photo (1).svg');
+            background-image: url('../img/photo (1).svg');
             width: 309px;
             height: 309px;
         }
 
         .blog2 {
-            background-image: url('../../frontend/img/photo (2).svg');
+            background-image: url('../img/photo (2).svg');
             width: 309px;
             height: 309px;
         }
 
         .blog3 {
-            background-image: url('../../frontend/img/photo (3).svg');
+            background-image: url('../img/photo (3).svg');
             width: 309px;
             height: 309px;
         }
 
         .blog4 {
-            background-image: url('../../frontend/img/photo (4).svg');
+            background-image: url('../img/photo (4).svg');
             width: 655px;
             height: 309px;
         }
 
         .blog5 {
-            background-image: url('../../frontend/img/photo (5).svg');
+            background-image: url('../img/photo (5).svg');
             width: 309px;
             height: 309px;
         }
@@ -487,7 +487,7 @@
 
     &__map {
         
-        background-image: url('../../frontend/img/for\ map.svg');
+        background-image: url('../img/for\ map.svg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

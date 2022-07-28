@@ -391,23 +391,23 @@
                 }
 
                 .cardproduct__icon1 {
-                    background-image: url('../../frontend/img/icons/Vector.svg');
+                    background-image: url('../img/icons/Vector.svg');
                     width: 15px;
                     height: 15px;
 
                     &:hover {
-                        background-image: url('../../frontend/img/icons/Vector\ copy.svg');
+                        background-image: url('../img/icons/Vector\ copy.svg');
                         cursor: pointer;
                     }
                 }
 
                 .cardproduct__icon2 {
-                    background-image: url('../../frontend/img/icons/compare.svg');
+                    background-image: url('../img/icons/compare.svg');
                     width: 15px;
                     height: 15px;
 
                     &:hover {
-                        background-image: url('../../frontend/img/icons/compare\ copy.svg');
+                        background-image: url('../img/icons/compare\ copy.svg');
                         cursor: pointer;
 
                     }

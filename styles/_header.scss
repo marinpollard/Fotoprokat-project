@@ -204,32 +204,32 @@
                 }
 
                 .menu__icon1 {
-                    background-image: url('../../frontend/img/icons/Vector.svg');
+                    background-image: url('../img/icons/Vector.svg');
                     width: 15px;
                     height: 15px;
 
                     &:hover {
-                        background-image: url('../../frontend/img/icons/Vector\ copy.svg');
+                        background-image: url('../img/icons/Vector\ copy.svg');
                     }
                 }
 
                 .menu__icon2 {
-                    background-image: url('../../frontend/img/icons/compare.svg');
+                    background-image: url('../img/icons/compare.svg');
                     width: 15px;
                     height: 15px;
 
                     &:hover {
-                        background-image: url('../../frontend/img/icons/compare\ copy.svg');
+                        background-image: url('../img/icons/compare\ copy.svg');
                     }
                 }
 
                 .menu__icon3 {
-                    background-image: url('../../frontend/img/icons/shopping-cart.svg');
+                    background-image: url('../img/icons/shopping-cart.svg');
                     width: 15px;
                     height: 15px;
 
                     &:hover {
-                        background-image: url('../../frontend/img/icons/shopping-cart\ copy.svg');
+                        background-image: url('../img/icons/shopping-cart\ copy.svg');
                     }
                 }
 
@@ -326,14 +326,14 @@
 
                         .search {
                             .menu-icon4 {
-                                background-image: url('../../frontend/img/icons/search\ \(1\).svg');
+                                background-image: url('../img/icons/search\ \(1\).svg');
                                 width: 15px;
                                 height: 15px;
                                 background-position: center;
                                 text-align: center;
 
                                 &:hover {
-                                    background-image: url('../../frontend/img/icons/search\ \(1\)\ copy.svg');
+                                    background-image: url('../img/icons/search\ \(1\)\ copy.svg');
                                 }
                             }
                         }
@@ -376,12 +376,12 @@
                         }
 
                         .menu-icon5 {
-                            background-image: url('../../frontend/img/icons/user\ \(1\).svg');
+                            background-image: url('../img/icons/user\ \(1\).svg');
                             width: 15px;
                             height: 15px;
 
                             &:hover {
-                                background-image: url('../../frontend/img/icons/user\ \(1\)\ copy.svg');
+                                background-image: url('../img/icons/user\ \(1\)\ copy.svg');
                             }
                         }   
 
@@ -481,7 +481,7 @@
 
     &__banner {
         
-        background-image: url('../../frontend/img/header.svg');
+        background-image: url('../img/header.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
