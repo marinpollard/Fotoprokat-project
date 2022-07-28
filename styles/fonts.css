@@ -1,24 +1,24 @@
 @font-face {
     font-family: Ubuntu-Medium;
-    src: url('../fonts/Ubuntu-Medium.ttf');
+    src: url('../../frontend/fonts/Ubuntu-Medium.ttf');
 }
   
 @font-face {
     font-family: Ubuntu-Bold;
-    src: url('../fonts/Ubuntu-Bold.ttf');
+    src: url('../../frontend/fonts/Ubuntu-Bold.ttf');
 }
 
 @font-face {
     font-family: Ubuntu-Light;
-    src: url('../fonts/Ubuntu-Light.ttf');
+    src: url('../../frontend/fonts/Ubuntu-Light.ttf');
 }
 
 @font-face {
     font-family: Montserrat-ExtraBold;
-    src: url('../fonts/Montserrat-ExtraBold.ttf');
+    src: url('../../frontend/fonts/Montserrat-ExtraBold.ttf');
 }
   
 body {
     font-family: Ubuntu-Light;
-    src: url('../fonts/Ubuntu-Light.ttf');
+    src: url('../../frontend/fonts/Ubuntu-Light.ttf');
 }

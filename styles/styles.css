@@ -254,33 +254,33 @@ body {
 }
 
 .header__menu .menu__icons .changed .menu__icon1 {
-  background-image: url("/frontend/img/icons/Vector.svg");
+  background-image: url("../../frontend/img/icons/Vector.svg");
   width: 15px;
   height: 15px;
 }
 
 .header__menu .menu__icons .changed .menu__icon1:hover {
-  background-image: url("/frontend/img/icons/Vector copy.svg");
+  background-image: url("../../frontend/img/icons/Vector copy.svg");
 }
 
 .header__menu .menu__icons .changed .menu__icon2 {
-  background-image: url("/frontend/img/icons/compare.svg");
+  background-image: url("../../frontend/img/icons/compare.svg");
   width: 15px;
   height: 15px;
 }
 
 .header__menu .menu__icons .changed .menu__icon2:hover {
-  background-image: url("/frontend/img/icons/compare copy.svg");
+  background-image: url("../../frontend/img/icons/compare copy.svg");
 }
 
 .header__menu .menu__icons .changed .menu__icon3 {
-  background-image: url("/frontend/img/icons/shopping-cart.svg");
+  background-image: url("../../frontend/img/icons/shopping-cart.svg");
   width: 15px;
   height: 15px;
 }
 
 .header__menu .menu__icons .changed .menu__icon3:hover {
-  background-image: url("/frontend/img/icons/shopping-cart copy.svg");
+  background-image: url("../../frontend/img/icons/shopping-cart copy.svg");
 }
 
 .header__menu .menu__icons .changed .menu__icon-circle1 {
@@ -388,7 +388,7 @@ body {
 }
 
 .header__menu .menu__icons .icons-constant .const .const-hover .search .menu-icon4 {
-  background-image: url("/frontend/img/icons/search (1).svg");
+  background-image: url("../../frontend/img/icons/search (1).svg");
   width: 15px;
   height: 15px;
   background-position: center;
@@ -396,7 +396,7 @@ body {
 }
 
 .header__menu .menu__icons .icons-constant .const .const-hover .search .menu-icon4:hover {
-  background-image: url("/frontend/img/icons/search (1) copy.svg");
+  background-image: url("../../frontend/img/icons/search (1) copy.svg");
 }
 
 .header__menu .menu__icons .icons-constant .const .const-hover .dropdown.active > .link, .header__menu .menu__icons .icons-constant .const .const-hover .link:hover {
@@ -437,13 +437,13 @@ body {
 }
 
 .header__menu .menu__icons .icons-constant .const .const-hover .menu-icon5 {
-  background-image: url("/frontend/img/icons/user (1).svg");
+  background-image: url("../../frontend/img/icons/user (1).svg");
   width: 15px;
   height: 15px;
 }
 
 .header__menu .menu__icons .icons-constant .const .const-hover .menu-icon5:hover {
-  background-image: url("/frontend/img/icons/user (1) copy.svg");
+  background-image: url("../../frontend/img/icons/user (1) copy.svg");
 }
 
 .header__menu .menu__icons .icons-constant .const .const-hover .dropdown.active > .link + .dropdown-menu {
@@ -555,7 +555,7 @@ body {
 }
 
 .header__banner {
-  background-image: url("/frontend/img/header.svg");
+  background-image: url("../../frontend/img/header.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -903,24 +903,24 @@ body {
 }
 
 .section__popular .cardproduct__icon1 {
-  background-image: url("/frontend/img/icons/Vector.svg");
+  background-image: url("../../frontend/img/icons/Vector.svg");
   width: 15px;
   height: 15px;
 }
 
 .section__popular .cardproduct__icon1:hover {
-  background-image: url("/frontend/img/icons/Vector copy.svg");
+  background-image: url("../../frontend/img/icons/Vector copy.svg");
   cursor: pointer;
 }
 
 .section__popular .cardproduct__icon2 {
-  background-image: url("/frontend/img/icons/compare.svg");
+  background-image: url("../../frontend/img/icons/compare.svg");
   width: 15px;
   height: 15px;
 }
 
 .section__popular .cardproduct__icon2:hover {
-  background-image: url("/frontend/img/icons/compare copy.svg");
+  background-image: url("../../frontend/img/icons/compare copy.svg");
   cursor: pointer;
 }
 
@@ -1104,31 +1104,31 @@ body {
 }
 
 .section__blogs .blog1 {
-  background-image: url("/frontend/img/photo (1).svg");
+  background-image: url("../../frontend/img/photo (1).svg");
   width: 309px;
   height: 309px;
 }
 
 .section__blogs .blog2 {
-  background-image: url("/frontend/img/photo (2).svg");
+  background-image: url("../../frontend/img/photo (2).svg");
   width: 309px;
   height: 309px;
 }
 
 .section__blogs .blog3 {
-  background-image: url("/frontend/img/photo (3).svg");
+  background-image: url("../../frontend/img/photo (3).svg");
   width: 309px;
   height: 309px;
 }
 
 .section__blogs .blog4 {
-  background-image: url("/frontend/img/photo (4).svg");
+  background-image: url("../../frontend/img/photo (4).svg");
   width: 655px;
   height: 309px;
 }
 
 .section__blogs .blog5 {
-  background-image: url("/frontend/img/photo (5).svg");
+  background-image: url("../../frontend/img/photo (5).svg");
   width: 309px;
   height: 309px;
 }
@@ -1391,7 +1391,7 @@ body {
 }
 
 .section__map {
-  background-image: url("/frontend/img/for map.svg");
+  background-image: url("../../frontend/img/for map.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3071,24 +3071,24 @@ body {
 }
 
 .section .section__cardproduct .cardproduct__description .cardproduct__now .cardproduct__icons .cardproduct__icon1 {
-  background-image: url("/frontend/img/icons/Vector.svg");
+  background-image: url("../../frontend/img/icons/Vector.svg");
   width: 15px;
   height: 15px;
 }
 
 .section .section__cardproduct .cardproduct__description .cardproduct__now .cardproduct__icons .cardproduct__icon1:hover {
-  background-image: url("/frontend/img/icons/Vector copy.svg");
+  background-image: url("../../frontend/img/icons/Vector copy.svg");
   cursor: pointer;
 }
 
 .section .section__cardproduct .cardproduct__description .cardproduct__now .cardproduct__icons .cardproduct__icon2 {
-  background-image: url("/frontend/img/icons/compare.svg");
+  background-image: url("../../frontend/img/icons/compare.svg");
   width: 15px;
   height: 15px;
 }
 
 .section .section__cardproduct .cardproduct__description .cardproduct__now .cardproduct__icons .cardproduct__icon2:hover {
-  background-image: url("/frontend/img/icons/compare copy.svg");
+  background-image: url("../../frontend/img/icons/compare copy.svg");
   cursor: pointer;
 }
 
@@ -3620,7 +3620,7 @@ body {
 }
 
 .katalog__search .button__loupe .loupe {
-  content: url("/frontend/img/icons/search (10).svg");
+  content: url("../../frontend/img/icons/search (10).svg");
   width: 16px;
   height: 16px;
   background-color: #F5F5F5;

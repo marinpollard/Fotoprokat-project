@@ -139,10 +139,6 @@
 			transition: all ease-in-out 200ms;
 			opacity: 1;
 		}
-
-        .mainsocial-icons:hover a1 {
-
-        }
     }
 
     .section__cardproduct {
@@ -260,23 +256,23 @@
                     }
 
                     .cardproduct__icon1 {
-                        background-image: url('/frontend/img/icons/Vector.svg');
+                        background-image: url('../../frontend/img/icons/Vector.svg');
                         width: 15px;
                         height: 15px;
 
                         &:hover {
-                            background-image: url('/frontend/img/icons/Vector\ copy.svg');
+                            background-image: url('../../frontend/img/icons/Vector\ copy.svg');
                             cursor: pointer;
                         }
                     }
 
                     .cardproduct__icon2 {
-                        background-image: url('/frontend/img/icons/compare.svg');
+                        background-image: url('../../frontend/img/icons/compare.svg');
                         width: 15px;
                         height: 15px;
 
                         &:hover {
-                            background-image: url('/frontend/img/icons/compare\ copy.svg');
+                            background-image: url('../../frontend/img/icons/compare\ copy.svg');
                             cursor: pointer;
 
                         }
@@ -381,7 +377,6 @@
         #specifications__content-3,
         #specifications__content-4 {
             display: none;
-            // height: 18.3rem;
             border: .1rem solid $color-grey-border;
             padding: 1.5rem;
             font-size: 14px;

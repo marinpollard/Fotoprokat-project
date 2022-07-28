@@ -155,38 +155,6 @@
                 align-items: center;
             }
 
-            // .choice__input {
-            //     display: inline-flex;
-            //     justify-content: center;
-            //     align-items: center;
-            //     gap: 0.5rem;
-            //     border-color: $color-white; 
-            //     box-shadow: 0px 2px 6px $color-shadow;
-            //     padding: .5rem;
-
-
-            //     .label {
-            //         display: inline-flex;
-            //         gap: 1rem;
-            //         font-size: 14px;
-            //         font-family: Ubuntu-Bold;
-            //     }
-
-            //     .content-inline {
-            //         display: inline-flex;
-            //     }
-
-            //     .input-zoom {
-            //         width: 3.5rem;
-            //         padding-left: 0.5rem;
-            //         background-color: $color-grey-bg;
-            //         border: .1rem solid $color-grey-border;
-            //     }
-
-            //     .input-empty {
-            //         padding: 0.5rem;
-            //     }
-            // }
 
             .choice__page {
                 align-items: center;
@@ -423,23 +391,23 @@
                 }
 
                 .cardproduct__icon1 {
-                    background-image: url('/frontend/img/icons/Vector.svg');
+                    background-image: url('../../frontend/img/icons/Vector.svg');
                     width: 15px;
                     height: 15px;
 
                     &:hover {
-                        background-image: url('/frontend/img/icons/Vector\ copy.svg');
+                        background-image: url('../../frontend/img/icons/Vector\ copy.svg');
                         cursor: pointer;
                     }
                 }
 
                 .cardproduct__icon2 {
-                    background-image: url('/frontend/img/icons/compare.svg');
+                    background-image: url('../../frontend/img/icons/compare.svg');
                     width: 15px;
                     height: 15px;
 
                     &:hover {
-                        background-image: url('/frontend/img/icons/compare\ copy.svg');
+                        background-image: url('../../frontend/img/icons/compare\ copy.svg');
                         cursor: pointer;
 
                     }
